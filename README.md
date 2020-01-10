@@ -1,5 +1,5 @@
 # TicTacToe
-TicTacToe game written in Python3.x
+text-based TicTacToe game written in Python3.x
 ```
  O  | X | O 
  ---|---|---
