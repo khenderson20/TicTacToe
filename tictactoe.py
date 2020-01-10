@@ -11,7 +11,7 @@ def display_board(board):
         TEST: a list of all the 'X's and 'O's to make sure the board
         gets displayed correctly to the user.
 
-    :param board:
+    :param board: list Object of the game board, index 0 is never used.
     :return: nothing, just displays the board
     """
     print(board[7] + "  | " + board[8] + " | " + board[9])
