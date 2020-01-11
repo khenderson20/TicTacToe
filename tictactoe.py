@@ -83,9 +83,9 @@ def win_check(board, mark):
         7. diagonal right.
         8. diagonal left.
 
-    :param board: list
-    :param mark:
-    :return:
+    :param board: list to check whether matching markers for player.
+    :param mark: the players chosen marker, 'X' or 'O'
+    :return: returns 1 of boolean conditions for a win.
     """
     # returns 1 of 8 boolean conditions for a win.
     return ((board[7] == mark and board[8] == mark and board[9] == mark) or  # across top
@@ -199,6 +199,7 @@ while True:
 
             display_board(game_board)
             position = player_choice(game_board)
+            # check to see if string is returned from player_choice.
             if isinstance(position, str):
                 print(position + " player 1")
                 continue
@@ -222,6 +223,7 @@ while True:
 
             display_board(game_board)
             position = player_choice(game_board)
+            # check to see if string is returned from player_choice.
             if isinstance(position, str):
                 print(position + " player 2")
                 continue
