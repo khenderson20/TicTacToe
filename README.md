@@ -8,3 +8,4 @@ text-based TicTacToe game written in Python3.x
  X  | O | O
 ```
 this game uses only functions.
+I am currently in the process of writing Unit Tests for the program, using the unittest package.
