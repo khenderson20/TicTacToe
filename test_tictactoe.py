@@ -12,7 +12,7 @@ class TestTicTacToe(unittest.TestCase):
 
     def test_player_input_player2(self):
         """
-        TEST: when player 2 chooses O
+        TEST: when player 1 chooses O
         """
         var = tictactoe.player_input()
         self.assertEqual(var, ('O', 'X'))
