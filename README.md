@@ -9,4 +9,4 @@ text-based TicTacToe game written in Python3.x
 ```
 this game uses only functions.
 
-TODO: currently in the process of writing Unit Tests for the program, using the unittest package.
+
